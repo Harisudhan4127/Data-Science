@@ -16,7 +16,7 @@ data = {"id": [1,2,3,4],
 df = pd.DataFrame(data)
 print(df.isnull().sum())
 """
-import pandas as pd
+"""import pandas as pd
 data = {"id": [1,2,3,4],
         "name": [None,"logeshwari","loki","logeshwaran"],
         "age": [18,None,31,99],
@@ -24,4 +24,10 @@ data = {"id": [1,2,3,4],
 df = pd.DataFrame(data)
 df["name"].fillna("Unidentified", inplace= True)
 # df["location"].dropna(inplace= True)
-print(df)
+print(df)"""
+
+import pandas as pd
+import numpy as np
+df = pd.read_csv("Data\Student2.csv")
+age = df["age"].mean()
+print(df.fillna(age,inplace = True)) 
