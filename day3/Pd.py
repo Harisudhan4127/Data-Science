@@ -40,5 +40,5 @@
 # Shop
 import pandas as pd
 df = pd.read_csv(r"C:\Users\STUDENT\Desktop\Python\Data\shop.csv")
-total_purchased= df.groupby("purchased").agg({'cus_id' : 'count'})
+total_purchased = df.groupby("purchased").agg({'cus_id' : 'count'})
 print(total_purchased)
