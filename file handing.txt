@@ -1,0 +1,23 @@
+# Open the file "demofile2.txt" and append content to the file:
+f = open("demofile2.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+
+#open and read the file after the appending:
+f = open("demofile2.txt", "r")
+print(f.read())
+
+# Remove the file "demofile.txt":
+import os
+os.remove("demofile.txt")
+
+# Remove the folder "myfolder":
+import os
+os.rmdir("myfolder")
+
+# Check if file exists, then delete it:
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("The file does not exist")
