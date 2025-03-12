@@ -1,20 +1,20 @@
-﻿id,name,gender,age,location
-1,John Deo,female,12,Pondy
-2,Max Ruin,male,23,Chennai
-3,,male,34,Pondy
-4,Krish Star,female,45,Caddalore
-5,John Mike,female,43,
-6,Alex John,male,23,Chennai
-7,,male,12,Pondy
-8,Asruid,male,21,Chennai
-9,Tes Qry,male,22,Pondy
-10,Big John,female,,Caddalore
-11,Ronald,female,65,Caddalore
-12,Recky,female,22,
-13,Kty,female,34,Chennai
-14,Bigy,female,14,Pondy
-15,Tade Row,male,16,Chennai
-16,Gimmy,male,12,Pondy
-17,Tumyu,male,75,
-18,Honny,male,85,Caddalore
-19,Tinny,male,55,
+﻿cus_id,name,gender,age,location,purchased
+1,John Deo,female,12,Pondy,yes
+2,Max Ruin,male,23,Chennai,no
+3,,male,34,Pondy,yes
+4,Krish Star,female,45,Caddalore,yes
+5,John Mike,female,43,,yes
+6,Alex John,male,23,Chennai,yes
+7,,male,12,Pondy,yes
+8,Asruid,male,21,Chennai,yes
+9,Tes Qry,male,22,Pondy,no
+10,Big John,female,,Caddalore,yes
+11,Ronald,female,65,Caddalore,yes
+12,Recky,female,22,,yes
+13,Kty,female,34,Chennai,yes
+14,Bigy,female,14,Pondy,yes
+15,Tade Row,male,16,Chennai,no
+16,Gimmy,male,12,Pondy,yes
+17,Tumyu,male,75,,yes
+18,Honny,male,85,Caddalore,yes
+19,Tinny,male,55,,no

@@ -38,7 +38,22 @@
 
 
 # Shop
+# import pandas as pd
+# df = pd.read_csv("Data/Student2.csv")
+# total_purchased = df.groupby("purchased").agg({'cus_id' : 'count'})
+# # name = df["name"].sort_values().values
+# print(df)
+# print(total_purchased)  
+
 import pandas as pd
-df = pd.read_csv(r"C:\Users\STUDENT\Desktop\Python\Data\shop.csv")
-total_purchased = df.groupby("purchased").agg({'cus_id' : 'count'})
-print(total_purchased)
+df1 = pd.read_csv("Data/data_1.csv")
+df2 = pd.read_csv("Data/data_2.csv")
+# merge_df = pd.merge(df1,df2,on="user_id")
+merge_df = pd.merge(df1,df2,on="user_id")
+print(merge_df)
+# merge_df = pd.merge(df1,df2,on="user_id", how='left')
+# print(merge_df)
+# merge_df = pd.merge(df1,df2,on="user_id", how= 'right')
+# print(merge_df)
+merge_df = pd.merge(df1,df2,on="user_id",how='outer')
+print(merge_df)
