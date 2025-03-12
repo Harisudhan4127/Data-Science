@@ -1,13 +1,13 @@
-# import matplotlib.pyplot as plt
-# import pandas as pd
-# df = pd.read_csv(r"Data/salary.csv")
-# salary = df['salary'].fillna(df['salary'].mean())
-# dept = df['dept']
-# plt.xlabel("Dept")
-# plt.ylabel("Salary")
-# plt.bar(dept, salary)
-# plt.show()
-# print(salary)
+import matplotlib.pyplot as plt
+import pandas as pd
+df = pd.read_csv(r"Data/salary.csv")
+salary = df['salary'].fillna(df['salary'].mean())
+dept = df['dept']
+plt.xlabel("Dept")
+plt.ylabel("Salary")
+plt.bar(dept, salary)
+plt.show()
+print(salary)
 
 # import matplotlib.pyplot as plt
 # import pandas as pd
@@ -37,9 +37,9 @@
 # plt.ylabel('Likes')
 # plt.show()
 
-# # histrograph to count repeat value in bar graph 
-import matplotlib.pyplot as plt
-import numpy as np
-x = np.random.randint(1,50, size = 100)
-plt.hist(x , color= '#FFD700', edgecolor = '#AA6C39')
-plt.show()
+# # # histrograph to count repeat value in bar graph 
+# import matplotlib.pyplot as plt
+# import numpy as np
+# x = np.random.randint(1,50, size = 100)
+# plt.hist(x , color= '#FFD700', edgecolor = '#AA6C39')
+# plt.show()
