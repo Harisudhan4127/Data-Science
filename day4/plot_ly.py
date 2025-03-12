@@ -1,6 +1,7 @@
 import plotly.express as px
 import pandas as pd
-
+import seaborn as sns
+import matplotlib.pyplot as plt 
 # Read the CSV file
 df = pd.read_csv(r'C:\Users\STUDENT\Desktop\Python\Data\salary.csv') 
 print("successfully started")
@@ -34,18 +35,21 @@ print(df)
 df.to_csv(r"c:\Users\STUDENT\Desktop\output\salary.csv")
 print("successfully finished")
 
-# Plotting with Plotly
+sns.boxplot(df["salary"])
+plt.show()
 
-# 1. Bar chart: Number of employees in each department
-fig1 = px.bar(dept, x=dept.index, y='salary', labels={'salary': 'Number of Employees'},
-              title="Number of Employees per Department")
-fig1.show()
+# # Plotting with Plotly
 
-# 2. Scatter plot: Salary vs Bonus
-fig2 = px.scatter(df, x="salary", y="bonus", color="dept", title="Salary vs Bonus",
-                  labels={"salary": "Salary", "bonus": "Bonus"})
-fig2.show()
+# # 1. Bar chart: Number of employees in each department
+# fig1 = px.bar(dept, x=dept.index, y='salary', labels={'salary': 'Number of Employees'},
+#               title="Number of Employees per Department")
+# fig1.show()
 
-# 3. Histogram: Distribution of Salaries
-fig3 = px.histogram(df, x="salary", nbins=20, title="Distribution of Salaries")
-fig3.show()
+# # 2. Scatter plot: Salary vs Bonus
+# fig2 = px.scatter(df, x="salary", y="bonus", color="dept", title="Salary vs Bonus",
+#                   labels={"salary": "Salary", "bonus": "Bonus"})
+# fig2.show()
+
+# # 3. Histogram: Distribution of Salaries
+# fig3 = px.histogram(df, x="salary", nbins=20, title="Distribution of Salaries")
+# fig3.show()
