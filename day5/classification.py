@@ -1,7 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier 
 import seaborn as sns
-import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 iris = sns.load_dataset('iris')
 
@@ -21,7 +20,7 @@ print(y_train.shape)
 
 print(x_train.head())
 
-knn = KNeighborsClassifier(n_neighbors= 5)
+knn = KNeighborsClassifier(n_neighbors= 5) # Hyperparameters
 knn.fit(x_train,y_train)
 
 # print(knn.fit(x_train,y_train))
