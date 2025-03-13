@@ -13,7 +13,10 @@ import numpy as np
 
 iris = sns.load_dataset('iris')
 
-sns.countplot(iris['species'])
-plt.show
 print(iris['species'].unique())
 print(iris.shape)
+# sns.countplot(iris['species'])
+# sns.pairplot(iris) 
+# sns.relplot(iris)
+sns.catplot(iris)
+plt.show()

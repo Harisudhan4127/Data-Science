@@ -32,6 +32,7 @@
 # df["name"].fillna('Unidentified',inplace = True)
 # df["location"].fillna('-',inplace = True) 
 # print(df)
+# Filter method
 # f_df = df[df['id']<10]
 # print(f_df)
 # # df.to_csv(r'C:\Users\STUDENT\Desktop\Python\Data\dummy.csv', index=False, header=True)
