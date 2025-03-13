@@ -1,0 +1,16 @@
+Emp_id,emp_name,Dept,Salary
+1501,A,Distr.,15000
+1502,B,Finan.,25000
+1503,C,Tran.,30000
+1504,D,Distr.,None
+1505,E,Tran.,15000
+1506,F,Distr.,15000
+1507,G,Distr.,30000
+1508,H,Tran.,35000
+1509,None,Finan.,25000
+None,J,Distr.,15000
+1511,K,Finan.,15000
+1512,L,None,30000
+1513,M,Distr.,15000
+1514,N,Finan.,20000
+1515,O,Tran.,25000
