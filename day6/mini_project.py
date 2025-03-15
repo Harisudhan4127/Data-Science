@@ -2,9 +2,9 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 from sklearn.model_selection import  train_test_split
 from sklearn.neighbors import KNeighborsClassifier 
-import pandas as pd 
+import pandas as pd
 
-df = pd.read_csv('Data/heart.csv')
+df = pd.read_csv('Data-Science/Data/heart.csv')
 target = df['target']
 
 
