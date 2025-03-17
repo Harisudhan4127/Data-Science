@@ -5,6 +5,9 @@ from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd 
 from sklearn.ensemble import RandomForestClassifier
 df = pd.read_csv('Data/heart.csv')
+import pandas as pd
+
+df = pd.read_csv('Data-Science/Data/heart.csv')
 target = df['target']
 
 
