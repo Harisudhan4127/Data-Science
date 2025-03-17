@@ -23,3 +23,5 @@ prediction = knn.predict(x_test)
 
 # print(accuracy_score(prediction, y_test)*100)
 print(accuracy_score(predict, y_test)*100)
+
+print("complete")
